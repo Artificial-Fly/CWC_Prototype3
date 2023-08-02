@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     //
     float jumpForce = 100.5f, gravityModifier = 1.5f; 
     private bool isOnGround = true;
+    //also tried to make 3 types of jump: small jump, medium jump, super-jum
     //https://discussions.unity.com/t/how-to-get-time-of-key-held-down/120288
     float jkDownTime, jkUpTime, jkPressTime=0;
     float Countdown =2.1f;
